@@ -2,16 +2,31 @@ library(httr)
 library(glue)
 library(ellmer)
 
-get_prompt <- function(blog_link, platforms, n, emojis, tone, hashtags){
+get_prompt <- function(blog_link, platforms, n, emojis, tone, hashtags) {
   
+  # retrieve post contents from GitHub
   post_contents <- fetch_github_markdown(blog_link)
-  platform_string <- paste(platforms, collapse = ", ")
-  emoji_string <- ifelse(emojis, "Use", "Do not use")
-  hashtag_string <- ifelse(is.null(hashtags), "", glue::glue("Where relevant to the platfotm, use the following hashtags: {hashtags}"))
   
+  # paste list of platforms together
+  platform_string <- paste(platforms, collapse = ", ")
+  
+  # set up string about emojis
+  emoji_string <- ifelse(emojis, "Use", "Do not use")
+  
+  # set up hashtags
+  hashtag_string <- ifelse(
+    is.null(hashtags),
+    "",
+    glue::glue(
+      "Where relevant to the platform, use the following hashtags: {hashtags}. Don't add any others."
+    )
+  )
+  
+  # combine components
   glue::glue(
-    "Create me {n} posts for each of these social media platforms: {platform_string} to
-    promote the below blog post. {emoji_string} emojis.  Use a {tone} tone. \n{post_contents}. {hashtag_string}"
+    "Create me {n} posts for each of these social media platforms: {platform_string}
+    to promote the below blog post. {emoji_string} emojis.  Use a {tone} tone. \n{post_contents}.
+    {hashtag_string}"
   )
 }
 
@@ -34,7 +49,7 @@ fetch_github_markdown <- function(url) {
   }
 }
 
-call_llm_api <- function(prompt){
+call_llm_api <- function(prompt) {
   chat <- chat_gemini(echo = "none")
   out <- chat$chat(prompt)
 }
