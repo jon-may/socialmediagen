@@ -2,6 +2,7 @@ library(shiny)
 library(httr)
 library(jsonlite)
 library(glue)
+library(bslib)
 
 source("prompts.R")
 
@@ -34,7 +35,9 @@ ui <- fluidPage(
       ),
       checkboxInput("emojis", "Use Emojis?", TRUE),
       textInput("hashtags", "Hashtags to Include"),
-      actionButton("generate", "Generate Posts")
+
+      input_task_button("generate", "Generate Posts")
+      
     ),
     mainPanel(h4("Generated Posts"), textOutput("output_posts"), )
   )
