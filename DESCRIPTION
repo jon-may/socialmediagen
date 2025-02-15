@@ -1,0 +1,17 @@
+Package: socialmediagen
+Title: Generates social media posts to promote blog posts using LLMs
+Version: 0.0.1
+Authors@R: 
+    person("Nic", "Crane", , "thisisnic@gmail.com", role = c("aut", "cre"))
+Description: Create social media posts via a Shiny app and GenAI
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    bslib,
+    elmer,
+    glue,
+    httr,
+    jsonlite,
+    shiny
