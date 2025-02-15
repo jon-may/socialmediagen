@@ -1,7 +1,8 @@
+#' Run the socialmediagen app
 #' @import shiny
 #' @importFrom bslib input_task_button
 #' @export
-run_app <- function(){
+run_app <- function() {
   ui <- fluidPage(
     tags$head(
       includeCSS(system.file("styles.css", package = "socialmediagen"))
@@ -32,9 +33,7 @@ run_app <- function(){
         ),
         checkboxInput("emojis", "Use Emojis?", TRUE),
         textInput("hashtags", "Hashtags to Include"),
-
         input_task_button("generate", "Generate Posts")
-
       ),
       mainPanel(h4("Generated Posts"), textOutput("output_posts"), )
     )
@@ -52,7 +51,6 @@ run_app <- function(){
       )
 
       call_llm_api(prompt)
-
     })
 
     output$output_posts <- renderText({

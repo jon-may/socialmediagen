@@ -3,3 +3,8 @@
 export(run_app)
 import(shiny)
 importFrom(bslib,input_task_button)
+importFrom(ellmer,chat_gemini)
+importFrom(glue,glue)
+importFrom(httr,GET)
+importFrom(httr,content)
+importFrom(httr,status_code)
