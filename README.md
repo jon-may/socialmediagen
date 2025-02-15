@@ -18,10 +18,10 @@ This is a Shiny app that generates social media posts based on a GitHub Markdown
 
 ## Installation
 
-Install the required packages if not already installed:
+Install from GitHub:
 
 ```r
-install.packages(c("shiny", "httr", "jsonlite", "glue", "ellmer"))
+remotes::install_github("thisisnic/socialmediagen")
 ```
 
 ## Usage
@@ -29,8 +29,8 @@ install.packages(c("shiny", "httr", "jsonlite", "glue", "ellmer"))
 Run the app:
 
 ```r
-library(shiny)
-runApp('socialmediagen.R')
+library(socialmediagen)
+run_app()
 ```
 
 ## Notes
