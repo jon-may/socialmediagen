@@ -12,7 +12,6 @@ This is a Shiny app that generates social media posts based on a GitHub Markdown
 5. Copy and use the generated content as needed.
 
 ## Requirements
-- The `ellmer`, `shiny`, `httr`, `jsonlite`, and `glue` packages
 - A **Gemini API key** (get one here: [Google Gemini API](https://ai.google.dev/gemini-api/docs/api-key))
 - Save the API key as an environment variable: `GOOGLE_API_KEY`
 
