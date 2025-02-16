@@ -8,32 +8,35 @@
 #' @param emojis Use emojis in post?
 #' @param tone Desired tone of the post
 #' @param hashtags Hashtags to include in the post
-#' @importFrom glue glue
+#' @importFrom ellmer interpolate_file
 get_prompt <- function(blog_link, platforms, n, emojis, tone, hashtags) {
   # retrieve post contents from GitHub
   post_contents <- fetch_github_markdown(blog_link)
 
-  # paste list of platforms together
-  platform_string <- paste(platforms, collapse = ", ")
-
-  # set up string about emojis
-  emoji_string <- ifelse(emojis, "Use", "Do not use")
-
-  # set up hashtags
-  hashtag_string <- ifelse(
-    is.null(hashtags),
-    "",
-    glue::glue(
-      "Where relevant to the platform, use the following hashtags: {hashtags}. Don't add any others."
-    )
-  )
+  platform_specific_advice <- get_platform_specific_advice(platforms)
 
   # combine components
-  glue::glue(
-    "Create me {n} posts for each of these social media platforms: {platform_string}
-    to promote the below blog post. {emoji_string} emojis.  Use a {tone} tone. \n{post_contents}.
-    {hashtag_string}"
+  ellmer::interpolate_file(
+    system.file("prompts", "prompt-main.md", package = "socialmediagen"),
+    platforms = paste(platforms, collapse = ", "),
+    n = n,
+    tone = tone,
+    hashtags = hashtags,
+    emojis = emojis,
+    post_contents = post_contents,
+    platform_specific_advice = platform_specific_advice
   )
+}
+
+#' Retrieve post-writing advice unique to specific platforms
+#'
+#' @param platforms Which platforms to get advice for
+get_platform_specific_advice <- function(platforms){
+  prompt_files <- paste0("prompt-", tolower(platforms), ".md")
+  file_paths <- system.file("prompts", prompt_files, package = "socialmediagen")
+
+  contents <- lapply(file_paths, readLines)
+  paste(unlist(contents), collapse = "\n")
 }
 
 #' Fetch markdown file from GitHub

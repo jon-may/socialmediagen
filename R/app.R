@@ -6,7 +6,6 @@ run_app <- function() {
   ui <- fluidPage(
     tags$head(
       includeCSS(system.file("styles.css", package = "socialmediagen"))
-      # tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
     ),
     titlePanel("Social Media Post Generator"),
     sidebarLayout(
