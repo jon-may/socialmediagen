@@ -1,0 +1,42 @@
+---
+title: "Untitled"
+author: "Jon May"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+[![](https://gallery.mailchimp.com/6d2359023df73cc9878607a99/images/cb84df82-52fc-4cb4-96f2-e066973f6d1e.png)](https://us14.campaign-archive.com/home/?u=6d2359023df73cc9878607a99&id=91248e037a)
+
+# School of Psychology Newsletter
+
+16 February 2025
+
+[![](https://mcusercontent.com/6d2359023df73cc9878607a99/images/03e7bc0b-92eb-ff1d-34d7-f21a663e89d6.png)](https://www.stir.ac.uk/people/1971770)
+
+This **Wednesday 19 February** in Plymouth Lecture Theatre at 4pm [Dr Alejandro Sánchez-Amaro](https://www.stir.ac.uk/people/1971770) from the University of Stirling will give our School Research Seminar on the *Determinants of competitive and prosocial behaviour in captive chimpanzees*. Chimpanzees need to constantly navigate conflicts with others to reap the benefits of social living. They cultivate strong bonds through grooming and other prosocial behaviours in order to outcompete others for social status. Such competition, supported by the creation of social bonds through affiliative and prosocial behaviours, seems to be the main driving force of chimpanzee sociality. In fact, many experimental studies have showed chimpanzees exceptional abilities to out-manoeuvre others for competitive goals as well as to engage in prosocial tasks to generate benefits for others. But although these studies have helped us understand chimpanzees motivational and cognitive capacities for social skills, studies in captivity rarely consider the social contexts in which chimpanzees live in. That is, how social variables such as kinship, the rank relation between the participants, or the strength of their affiliation may affect chimpanzees' performance in these tasks. We evaluated the effect of these variables in a large collection of competitive and prosocial tasks conducted at the Wolfgang Kohler Primate Research Centre in the Leipzig Zoo. Our findings suggest that social parameters such as rank relation, gender and bonding relation greatly influence chimpanzees performance to compete and act prosocial in these tasks.
+
+-   *Dr Sánchez-Amaro is a Lecturer in Psychology at the University of Stirling, specialising in great ape social cognition. Previously he held postdoctoral research positions at the Department of Comparative Cultural Psychology, Max Planck Institute for Evolutionary Anthropology, and at the Cognitive Science Department of University of California San Diego. Dr Amaro conducted his PhD at the Department of Developmental and Comparative Psychology (Max Planck for Evolutionary Anthropology under the supervision of Prof. Michael Tomasello and Prof. josep Call.*
+
+[School Seminars - all welcome](https://dle.plymouth.ac.uk/course/section.php?id=670967)
+
+ [![](https://mcusercontent.com/6d2359023df73cc9878607a99/images/0c820538-3604-2dc0-3a03-5084d51b9f30.jpg)](https://www.plymouth.ac.uk/facilities/fitzroy-building)
+
+The renovations of the [Fitzroy Building](https://www.plymouth.ac.uk/facilities/fitzroy-building) are complete and the Business School have moved into the new teaching facilities. If you would like to have a look around then [The Cube](https://www.plymouth.ac.uk/about-us/university-structure/service-areas/research-and-innovation/the-cube) are excited to announce that the Fitzroy Grand Opening on **Friday 21 February** will include Student Business Showcases from 2-3.30pm as part of the celebrations.  This is a fantastic chance for students from across the whole University to network, support their peers, and get inspired by the innovative projects on display.
+
+[compare reality with the flythrough](https://youtu.be/gxyaGKzsSOo?si=cepX7I3itpjJEDGN)
+
+ [![](https://mcusercontent.com/6d2359023df73cc9878607a99/images/7c27717d-daba-eadf-e70e-b59236e5e8d6.png)](https://www.cbc.ca/listen/live-radio/1-14-day-6)
+
+[Dr Gustav Kuhn](http://www.plymouth.ac.uk/staff/gustav-kuhn) was interviewed by the [Day 6 programme](https://www.cbc.ca/radio/day6) of the Canadian Broadcasting Corporation about his interest in magic's deceptive elements, and how it  led him to study psychology and explore the human mind using the principles of magic. In November last year, he launched the [Auditory Magic Challenge,](https://www.magicresearchlab.com/auditorychallange) which aims to create a magic trick relying solely on auditory perception. in the interview Dr. Kuhn explains what contributors came up with and how it might help make magic a more inclusive experience.
+
+[listen to the clip (10m)](https://www.cbc.ca/listen/live-radio/1-14-day-6/clip/16121895-for-much-its-history-magic-relied-sight-deceive)
+
+ [![](https://mcusercontent.com/6d2359023df73cc9878607a99/images/7a012580-a9fa-7a0a-0ae6-2a17e3afebf8.png)](https://www.plymouth.ac.uk/psychology)
+
+**DigData** run a range of online events designed to give students insight into the way employers use data science, and to give them the chance to hear about career opportunities. **On Wednesday 5 March at 6.30pm** they are running *Data Futures: Introducing Data Careers in the NHS – Placement and Graduate opportunities*. This 60-minute live online recruitment briefing will provide insight into NHS placement and graduate opportunities nationally. Students will learn about the incredible contributions the data teams are making, including enhancing patient care, driving healthcare innovation, and transforming NHS operations. This session is perfect for university students or recently graduated or career changers interested in how talent can break into data careers in healthcare. This session will leave attendees inspired about the data and analytics opportunities available. Places are limited and the sessions do get fully booked, so register now.
+
+[register now](https://digdata.online/nhs-graduate-live-recruitment-briefing-step-up-registration-form/?utm_medium=email&_hsenc=p2ANqtz-_HEYTaEj80nb-4pmM1WKPjm9luTwCSpe63k-s0vAbcvr4eelVd9GYqsKeAECbLYWL7xBCy8doR1gRGRvlWjsDTlWA4_waIi6qYBLTS8jGPxn05ZYg&_hsmi=339539548&utm_content=339539548&utm_source=hs_email)
+
+ [![School of Psychology at the University of Plymouth](https://mcusercontent.com/6d2359023df73cc9878607a99/images/f5727e5c-e678-85c6-ac14-6a57880aaad2.png)](https://www.plymouth.ac.uk/psychology)[![Facebook icon](https://cdn-images.mailchimp.com/icons/social-block-v3/block-icons-v3/facebook-filled-color-40.png)](https://facebook.com/plymouthpsychology)[![Instagram icon](https://cdn-images.mailchimp.com/icons/social-block-v3/block-icons-v3/instagram-filled-color-40.png)](https://instagram.com/plympsych)[![Twitter icon](https://cdn-images.mailchimp.com/icons/social-block-v3/block-icons-v3/twitter-filled-color-40.png)](https://twitter.com/plymouthpsych)[![Website icon](https://cdn-images.mailchimp.com/icons/social-block-v3/block-icons-v3/website-filled-color-40.png)](https://www.plymouth.ac.uk/psychology)
+
+This weekly newsletter is edited by [Professor Jon May.](mailto:jon.may@plymouth.ac.uk?subject=Newsletter%20material&body=null) If you have any news please email him by the Thursday before publication. Back issues can be viewed and your email address edited or unsubscribed at our [online archive.](https://us14.campaign-archive.com/home/?u=6d2359023df73cc9878607a99&id=91248e037a)
